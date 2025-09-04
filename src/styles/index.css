@@ -9,3 +9,84 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    font-family: sans-serif;
+    margin: 20px auto;
+    max-width: 40%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: cornflowerblue;
+    box-shadow: 0 2px 4px gray;
+}
+
+.form-control {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+}
+
+.form-control-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.boton {
+    border-radius: 30px;
+        text-transform: uppercase;
+        
+        background: #0099cc;
+        background: -webkit-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef);
+        background: -o-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef);
+        background: -moz-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef);
+        background: linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef);
+ }
+
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+    margin-bottom: 8px;
+
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.lista-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.icono {
+    display: flex;
+    margin-left: auto;
+
+    cursor: pointer;
+
+}
